@@ -1,4 +1,6 @@
 import java.util.Date;
+import java.util.Scanner;
+
 public class TypeTest {
     public static void main(String[] args){
         // 数据类型
@@ -15,10 +17,13 @@ public class TypeTest {
         System.out.println(timestamp);
         System.out.println(newTimestamp);
 
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(sex);
-        System.out.println(height);
-        System.out.println(single);  
+//        System.out.println(name);
+//        System.out.println(age);
+//        System.out.println(sex);
+//        System.out.println(height);
+//        System.out.println(single);
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
     }
 }
